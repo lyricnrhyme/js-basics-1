@@ -29,8 +29,15 @@ greet(myName);
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
+var dataTypes = ["Hello", 12, true, {age: 9}, undefined, null];
 
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+var dog = {
+    name: "Spot",
+    bark: function() {
+        console.log("Bark!");
+    }
+}
